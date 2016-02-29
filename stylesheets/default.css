@@ -1,5 +1,6 @@
 #top-container{
-	background-color:#4f2c73;
+	background-color:#984C8A;
+
 }
 
 #header{
@@ -91,7 +92,7 @@ h3{
 	left:14em;
 }
 
-.content-container{
+#content-container{
 	background-color: #7A296A;
 	position: absolute;
 	display: inline-block;
