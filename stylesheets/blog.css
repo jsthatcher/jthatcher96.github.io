@@ -65,6 +65,11 @@
 
 }
 
+.index-link{
+
+text-decoration: none;
+}
+
 .index-text-container{
 	background-color: #984C8A;
 	position: relative;
@@ -81,4 +86,6 @@
 .index-text-container h4{
 	font-size: 14px;
 }
+
+
 
