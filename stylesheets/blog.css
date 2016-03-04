@@ -58,22 +58,27 @@
 	position: relative;
 	display: inline-block;
 	border-bottom: solid black thin;
-	width:12em;
-	max-height: 2em;
-	padding:-3em,-3em,-3em,-3em;
+	width:19em;
+	max-height: 1em;
 	clear:both;
+	font-size: 10px;
 
 }
 
 .index-text-container{
-	background-color: black;
+	background-color: #984C8A;
 	position: relative;
 	display: inline-block;
-	outline: black solid thick;
 	max-height: 10em;
-	width: 12em;
-	margin-top: 1em;
+	width: 24em;
+	font-size: 8px;
+}
 
+.index-text-container p{
+	font-size: 10px;
+}
 
+.index-text-container h4{
+	font-size: 14px;
 }
 

@@ -104,6 +104,7 @@ h3{
 
 }
 
-.bold{
+strong{
 	font-style: bold;
+	font-size: 10px;
 }
