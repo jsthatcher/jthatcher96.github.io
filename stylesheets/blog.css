@@ -40,3 +40,40 @@
 	margin:2em;
 }
 
+
+
+.index-post-container{
+	background-color: #984C8A;
+	position: relative;
+	display: inline-block;
+	outline: black solid thick;
+	height: 12em;
+	width: 12em;
+	margin: 3em 3em 3em 3em;
+	padding: 1em 1em 1em 1em;
+}
+
+.index-date-container{
+	background-color: #984C8A;
+	position: relative;
+	display: inline-block;
+	border-bottom: solid black thin;
+	width:12em;
+	max-height: 2em;
+	padding:-3em,-3em,-3em,-3em;
+	clear:both;
+
+}
+
+.index-text-container{
+	background-color: black;
+	position: relative;
+	display: inline-block;
+	outline: black solid thick;
+	max-height: 10em;
+	width: 12em;
+	margin-top: 1em;
+
+
+}
+
