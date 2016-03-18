@@ -1,110 +1,33 @@
-#top-container{
-	background-color:#984C8A;
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../imgs/chicago.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+header{
+	background-color: #6688cc;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 5em;
+	color: #fff;
+	opacity: 0.1;
 
 }
 
-#header{
-	background-color: #605293;
-	position:absolute;
-	display:block;
-	clear:both;
-	width:84em;
-	height:8em;
-
-}
-
-#name-title{
-	background-color: #4E638E;
+#namePlate{
 	display: inline-block;
-	position: relative;
-	margin: auto;
-	line-height: 2px;
-	left:7em;
-	top:.75em;
-	outline: black solid 5px;
-}
-
-.header-contact{
-	background-color: #4E638E;
-	display: inline-block;
-	position: relative;
-	width:15em;
-	height: 6em;
-	left:50em;
-	top:.75em;
-	line-height: 15px;
-	outline: black solid 5px;
-
-	/* TEXT SELECTORS */
-	text-align: left;
-	font-size:15px;
-	font-style: verdana;
-}
-
-
-h1{
-	font-family: cursive;
-	font-style: italic;
-	font-size:30px;
-}
-
-h2{
-	font-family: cursive;
-	font-style: italic;
-	font-size:20px;
-	text-align: center;
-
-}
-
-h3{
-	font-size:18px;
-	text-align: left;
-
-}
-
-#navbar{
-	background-color: #3F3075;
-	position:absolute;
-	display:inline-block;
-	width:15em;
-	height: 80em;
-	top:8em;
-}
-
-.nav-container{
-	background-color: #236863;
 	position: absolute;
-	display: inline;
-	margin: 1em;
-	width: 11em;
-	outline: black solid thick;
-	text-align: center;
-
+	z-index: 2;
+	width: 30em;
+	height:100%;
+	margin-left: 5em;
 }
 
-#content{
-	background-color: #984C8A;
-	position: absolute;
-	display: inline-block;
-	width: 70em;
-	height: 80em;
-	top:8em;
-	left:14em;
-}
-
-#content-container{
-	background-color: #7A296A;
-	position: absolute;
-	display: inline-block;
-	margin: 2em;
-	width: 65em;
-	height: 75em;
-	outline: black solid thick;
-
-
-}
-
-strong{
-	font-style: bold;
-	font-size: 10px;
+#namePlate h1{
+	font-family: verdana;
+	font-size: 30px;
+	color: rgba(255,255,255,1.0);
 }
