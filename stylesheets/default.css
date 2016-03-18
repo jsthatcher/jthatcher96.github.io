@@ -22,8 +22,7 @@ header{
 }
 
 #namePlate{
-	position: fixed;
-	display: inline-block;
+	position: absolute;
 	z-index: 3;
 	width: 16em;
 	height:100%;
