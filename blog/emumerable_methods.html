@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Enumerable </title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+</head>
+<body>
+
+	<header> 
+		<div id = "namePlate"> 
+			<h1> Jack Thatcher</h1>
+		 	<h2> Junior Software Developer </h2> 
+		</div> 
+
+		<div id = "navBackground"></div>
+		 <nav>
+		 	<ul>
+		 		<li> <a href= "../index.html"> Home </a> </li>
+		  		<li> <a href= "../aboutme.html"> About Me </a> </li>
+		 		<li> <a href= "../resume.html"> Resume </a> </li>
+		 		<li> <a href= "../projects.html"> Projects </a> </li>
+		 		<li> <a href= "index.html"> Blog </a> </li>
+		 	</ul> 
+		 </nav>
+	</header>
+
+	<div class = "contentContainer">  </div>
+	<div class = "content">  
+		<div id = "postContainer"> </div>
+		<h1> Enumerable Methods</h1>
+		<h3> 4:03pm 3/14/2016 </h3>
+       <p> It took me a couple seconds to get my head around what the method group_by returns, and how you use it, but after you use it a couple times it's quite clear. The group_by method takes a single array argument; this is what you pass in. The method then iterates through each element evaluating their new value acording to what the user put in the block, and then organzies them according to the result. For example the method 
+       [0,1,2,3,4,5,6].group_by { |i| i%2} would return what values are even (0,2,4,6) and what values are odd(1,3,5), or which have a remainder of 0 or a remainder of 1.>
+
+	</div>
+
+
+	<footer> ©2016 Jack Thatcher. All Rights Reserved. </footer>
+</body>
+</html>
