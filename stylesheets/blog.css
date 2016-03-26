@@ -30,6 +30,11 @@ div.content h3{
 	font-size: 12px;
 }
 
+/* blog questions */
+div.content h4{
+	font-style: bold;
+	margin-left: 2em;
+}
 #scrollBox{
 	height: 10em;
 	width:90%;
