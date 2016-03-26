@@ -1,0 +1,48 @@
+#postContainer{
+	display: inline-block;
+	position: absolute;
+	background-color: #B5A9BB;
+	z-index: 3;
+	opacity: .3;
+	height: 26em;
+	width: 95%;
+	align: center;
+	margin: 1em;
+}
+
+div.content h2{
+	text-align: left;
+	margin: .5em 0em .5em 2em;
+	font-size: 19px;
+
+}
+
+div.content h3{
+	text-align: right;
+	margin-right: 4em;
+	font-size: 12px;
+}
+
+#scrollBox{
+	height: 10em;
+	width:90%;
+	top:11em;
+	margin: 0em 2em 0em 2em;
+	border: 3px solid black;
+	overflow-y:scroll;
+}
+table{
+	height: 10em;
+	width:100%;
+	background-color: rgba(136,119,136,.5);
+	top:11em;
+	border-collapse: collapse;
+}
+
+table, tr, td{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: left;
+	vertical-align: bottom;
+	font-size: 19px;
+}
