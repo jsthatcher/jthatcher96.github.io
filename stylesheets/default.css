@@ -84,6 +84,7 @@ div#contactTab{
 	z-index: 5;
 	top:10em;
 	padding-left:1em;
+	float:left;
 }
 
 img.contactImg{
