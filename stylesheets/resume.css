@@ -1,0 +1,49 @@
+div.content h2{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+	line-height: 12px;
+}
+
+div.content h3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 5px;
+}
+
+hr{
+	border: 1px solid #EEEEBB;
+}
+
+div.content div.resumeContent{
+	width: 85%;
+	height: 90%;
+	margin: 0em 2em 0em 2em;
+	padding: 0em 1em 0em 1em;
+}
+
+div.content div.resumeContent ul{
+	list-style-type: none;
+}
+
+div.content div.resumeContent ul li{
+	list-style-type:circle;
+}
+
+.workEx{
+	text-decoration: underline;
+}
+
+div.contentContainer{
+		position: absolute;
+		clear: both;
+		top:7em;
+		background-color: #111144;
+		width:70%;
+		min-height: 60em;
+		float: both;
+		z-index: 2;
+		margin: 1% 15% 7%;
+		opacity: .6;
+}
