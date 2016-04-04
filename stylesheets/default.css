@@ -9,6 +9,7 @@ body {
 	background-image: url("../imgs/chicago.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 
 }
 header{
@@ -81,7 +82,7 @@ div.contentContainer{
 		top:7em;
 		background-color: #111144;
 		width:70%;
-		height: 28em;
+		min-height: 29em;
 		float: both;
 		z-index: 2;
 		margin: 1% 15% 7%;
@@ -100,13 +101,34 @@ div.content{
 
 div.content h1{
 	text-align: left;
-	margin: 2em 0em 0em 2em;
+	margin: 2em 0em 1em 2em;
 	font-size: 19px;
 
 }
 
 div.content p{
 	margin: 0em 2em 0em 2em;
+}
+
+div.left{
+	width: 45%;
+	height: 12em;
+	margin-left:1em;
+	margin-top: 1em;
+	float: left;
+	padding: 0em 1em 1em 1em;
+	background-color: grey;
+}
+
+div.right{
+	width: 40%;
+	height: 12em;
+	margin-left:1em;
+	margin-top: 1em;
+	float: left;
+	clear:right;
+	padding: 0em 1em 1em 1em;
+	background-color: grey;
 }
 
 footer{
