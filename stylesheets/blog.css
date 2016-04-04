@@ -4,10 +4,22 @@
 	background-color: #B5A9BB;
 	z-index: -1;
 	opacity: .3;
-	height: 26em;
+	height: 30em;
 	width: 95%;
 	align: center;
 	margin: 1em;
+}
+div.contentContainer{
+		position: absolute;
+		clear: both;
+		top:7em;
+		background-color: #111144;
+		width:70%;
+		height: 32em;
+		float: both;
+		z-index: 2;
+		margin: 1% 15% 7%;
+		opacity: .6;
 }
 
 div.content h1{
