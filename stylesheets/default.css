@@ -82,7 +82,7 @@ div#contactTab{
 	height:10em;
 	width:5em;
 	z-index: 5;
-	top:10em;
+	top:13em;
 	padding-left:1em;
 	float:left;
 }
@@ -98,7 +98,7 @@ div.contentContainer{
 		top:7em;
 		background-color: #111144;
 		width:70%;
-		min-height: 29em;
+		min-height: 28em;
 		float: both;
 		z-index: 2;
 		margin: 1% 15% 7%;
