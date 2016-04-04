@@ -76,6 +76,21 @@ header li a:hover{
 	border-bottom: 3px solid #CCBB44;
 }
 
+div#contactTab{
+	position: fixed;
+	background-color: transparent;
+	height:10em;
+	width:5em;
+	z-index: 5;
+	top:10em;
+	padding-left:1em;
+}
+
+img.contactImg{
+	height: 3em;
+	width: 3em;
+}
+
 div.contentContainer{
 		position: absolute;
 		clear: both;
@@ -138,5 +153,6 @@ footer{
 	left: 0px;
 	clear: both;
 	text-align: center;
+	z-index: 4;
 }
 
