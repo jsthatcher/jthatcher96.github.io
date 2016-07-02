@@ -91,6 +91,11 @@ hr {
 	top: 0px;
 }
 
+.resumeSectionDetails{
+	display: inline-block;
+	float:right;
+}
+
 .experienceText{
 	margin-top: 20px;
 	display: inline-block;
@@ -98,10 +103,7 @@ hr {
 
 
 
-.resumeSectionDetails{
-	display: inline-block;
-	float:right;
-}
+
 
 
 
