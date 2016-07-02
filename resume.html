@@ -3,127 +3,118 @@
 <head>
 	<title> Resume </title>
 	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="stylesheets/resume.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
 </head>
 <body>
 
-	<header> 
-		<div id = "namePlate"> 
-			<h1> Jack Thatcher</h1>
-		 	<h2> Junior Software Developer </h2> 
-		</div> 
+	<div id="navTop">
+		<nav>
+			<a href= "index.html"> 
+				<div class="navButton">
+					<i class='fa fa-user fa-4x'> </i>
+				</div>
+			</a>
+			
+			<a href= "resume.html">
+				<div class="navButton">
+					<i class='fa fa-list fa-4x'> </i>
+				</div>
+			</a>
 
-		<div id = "navBackground"></div>
-		 <nav>
-		 	<ul>
-		 		<li> <a href= "index.html"> Home </a> </li>
-		  		<li> <a href= "aboutme.html"> About Me </a> </li>
-		 		<li> <a href= "resume.html"> Resume </a> </li>
-		 		<li> <a href= "projects/index.html"> Projects </a> </li>
-		 		<li> <a href= "blog/index.html"> Blog </a> </li>
-		 	</ul> 
-		 </nav>
-	</header>
+			<a href= "projects/index.html">
+				<div class="navButton">
+					<i class='fa fa-th-large fa-4x'> </i>
+				</div>
+			</a>
 
-	<div id = 'contactTab'> 
-	<a href="https://github.com/jthatcher96">
-	<img src = "imgs/git.svg" class = "contactImg"></a>
-	<a href="mailto:jsthatcher96@gmail.com">
-	<img src = "imgs/gmail.svg" class = "contactImg"></a>
+			<a href= "contact.html">
+
+				<div class="navButton">
+					<i class='fa fa-weixin fa-4x'> </i>
+				</div>
+			</a>
+		</nav>
 	</div>
 
-	<div class = "contentContainer">  </div>
-	<div class = "content">  
-		<h2> Jack Thatcher </h2> 
-		<h3> Chicago, IL 60625 </h3>
-		<h3> (773)-573-6853 </h3>
-		<h3> jsthatcher96@gmail.com </h3>
-		<hr>
-	<div class = "resumeContent">
-	<h4> Education: </h4>
-	<ul>
-		 The College of Wooster
-			<ul>
-			<li> August 2014 - May 2015 </li>
-			<li> Concentration: Computer Science </li>
-			<li> GPA: 3.2 on a scale of 4.0 </li>
-			</ul>
-		</li>
-<br>
-		 Northside College Prep Highschool
-			<ul>
-			<li> Varsity Swim Team, Varsity Water Polo Team, Concert Choir, Spring Musical, CPS All-City Highschool Exhibition(Photography) </li>
-			<li> GPA: 3.5 on a scale of 4.0 </li>
-			<li> Class of 2014 </li>
-			</ul>
-		</li>
-	</ul>
-	<h4> Work Experience: </h4>
-<ul>
-	  <span class = "workEx"> Lakeview YMCA of Metropolitan Chicago </span> <br> Lifeguard and Camp Counselor
-			<ul>
-			<li> Organized and lead a variety of small and large group activities
- </li>
-			<li> Identified and responded to camper behavior issues </li>
-			<li> Maintained records including incident reports, activity logs and attendance </li>
-			</ul>
-		</li>
-		</ul>
+	<div id="resumeContainer">
+		<div id="resumeContentContainer">
+			<div class="resumeTitle">
+				<h3> Skills: </h3>
+			</div>
 
-<ul>
-	  <span class = "workEx"> Mt. Mitchell Golf Course </span> <br> Greenskeeper
-			<ul>
-			<li> Groomed greens and tees daily
- </li>
-			<li> Maintained the cleanliness and functionality of the course </li>
-			<li> Monitored the health of turf and flora </li>
-			</ul>
-		</li>
-		</ul>
+			<div class="skillContainer">
+				<h4> Web Development: </h4>
+				<ul>
+					<li> Javascript </li>
+					<li> Ruby-on-Rails </li>
+					<li> Sinatra </li>
+					<li> HTML5 </li>
+					<li> CSS </li>
+					<li> Python </li>
+					<li> Angular </li>
+				</ul>
+			</div>
 
-		<ul>
-	 <span class = "workEx">The College of Wooster </span> <br> Swim Meet Management/Office Worker/Lifeguard
-			<ul>
-			<li> Operated swimming timing systems and diving scoring programs
- </li>
-			<li> Maintained records, files and logs of swimming and tournament data </li>
-			<li> Corresponded with potential recruits </li>
-			</ul>
-		</li>
-		</ul>
-	<ul>
-	 <span class = "workEx"> Camp Celo </span> <br> 
-	"Bobjobber"
-			<ul>
-			<li> Coordinated camp, farm, and trail maintenance
- </li>
-			<li> Enriched leadership and organization of other staff </li>
-			<li> Assigned day-to-day work to staff ensuring the functionality and cleanliness of camp </li>
-			</ul>
-		</li>
-		Hike Packer
-		<ul>
-			<li> Assessed and organized supplies and equipment for more than 50 people on multiple backpacking trips
- </li>
-			<li> Coordinated the purchasing and packing of provisions </li>
-			<li> Systematized the process in a guide written for future Hike Packers </li>
-			</ul>
-		Helper
-		<ul>
-			<li> Assisted in the kitchen preparing meals and cleaning for over 100 people daily
- </li>
-			<li> Coordinated games and activities with campers and other staff </li>
-			<li> Trained new staff in their responsibilities </li>
-			<li> Worked extensively on the farm and with livestock providing produce for the camp and surrounding community</li>
-			</ul>
+			<div class="skillContainer">
+				<h4> Database: </h4>
+					<ul>
+						<li> SQLite </li> 
+						<li> PostgreSQL </li> 
+						<li> Active Record </li> 
+						<li> XML </li> 
+					</ul>
+			</div>
 
-		</ul>
-	</div>
-	</div>
+			<div class="skillContainer">
+				<h4> Other: </h4>
+					<ul>
+						<li> Object Oriented Design </li> 
+						<li> Empathetic Communication </li> 
+						<li> Pair Programming </li> 
+						<li> Agile Workflow </li> 
+					</ul>
+			</div>
+		</div>
+
+		<div id="resumeContentContainer">
+			<div class="resumeTitle">
+				<h3> Experience: </h3>
+			</div>
+
+			<div class="skillContainer">
+
+			</div>
+
+			<div class="skillContainer">
+
+			</div>
+
+			<div class="skillContainer">
+
+			</div>
+		</div>
 	</div>
 
 
-	<footer> ©2016 Jack Thatcher. All Rights Reserved. </footer>
+
+<!-- 	<div id='resumeContainer'>
+
+		<div id='resumeContentContainer'>
+
+		<div id="sectionTitle">
+
+		<h3> Skills: </h3>
+		</div>
+
+		<div id="sectionText">
+			<div class='skillContainer'> 
+			<ul>
+				<li> list </li>
+			</ul>
+			</div>
+		</div>
+
+	</div> -->
 </body>
 </html>
