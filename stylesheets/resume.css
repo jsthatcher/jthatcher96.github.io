@@ -21,8 +21,7 @@
 
 #topContainer{
 	display: inline-block;
-	position:relative;
-	/*START HERE*/
+	position:fixed;
 	top: 80px;
 	max-width: 35%;
 	margin-left: 30px;
@@ -87,9 +86,14 @@ hr {
 	top: 0px;
 }
 
-.experienceTitle{
+.resumeSectionTitle{
 	display: inline-block;
 	top: 0px;
+}
+
+.resumeSectionDetails{
+	display: inline-block;
+	float:right;
 }
 
 .experienceText{
@@ -97,19 +101,11 @@ hr {
 	display: inline-block;
 }
 
-.experienceDetails{
-	display: inline-block;
-	float:right;
-}
 
-.educationTitle{
-	display: inline-block;
-}
 
-.educationDetails{
-	display: inline-block;
-	float:right;
-}
+
+
+
 
 h4{
 	font-size: 20px;
