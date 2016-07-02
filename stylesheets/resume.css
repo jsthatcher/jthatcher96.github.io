@@ -1,49 +1,82 @@
-div.content h2{
+#resumeContainer{
+	position: relative;
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+}
+
+.resumeContentContainer{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin-left: 30px;
+}
+
+.resumeTitle{
+	position: relative;
+	display: block;
+	height: 50px;
+	width: 100%;
+	min-width: 100px;
+	clear:both;
 	text-align: center;
-	font-weight: bolder;
+}
+
+hr {
+	width: 100%;
+	left: 0px;
+	border-style: solid; 
+	border-color: #fb9b2b; 
+	border-width: 7px 0 0 ; 
+	border-radius: 7px; 
+} 
+
+
+.skillContainer{
+	position: relative;
+	display: inline-block;
+	width: 33.33%;
+	min-width: 300px;
+	max-width: 600;
+	height: 100%;
+	float: left;
+}
+
+.skillContainer h4{
+	font-family: shareBold;
+}
+
+.skillContainer ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.experienceTitle{
+	display: inline-block;
+	top: 0px;
+}
+
+.experienceText{
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.experienceDetails{
+	display: inline-block;
+	float:right;
+}
+
+.educationTitle{
+	display: inline-block;
+}
+
+.educationDetails{
+	display: inline-block;
+	float:right;
+}
+
+h4{
 	font-size: 20px;
-	line-height: 12px;
 }
 
-div.content h3{
-	text-align: center;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 5px;
-}
 
-hr{
-	border: 1px solid #EEEEBB;
-}
-
-div.content div.resumeContent{
-	width: 85%;
-	height: 90%;
-	margin: 0em 2em 0em 2em;
-	padding: 0em 1em 0em 1em;
-}
-
-div.content div.resumeContent ul{
-	list-style-type: none;
-}
-
-div.content div.resumeContent ul li{
-	list-style-type:circle;
-}
-
-.workEx{
-	text-decoration: underline;
-}
-
-div.contentContainer{
-		position: absolute;
-		clear: both;
-		top:7em;
-		background-color: #111144;
-		width:70%;
-		min-height: 60em;
-		float: both;
-		z-index: 2;
-		margin: 1% 15% 7%;
-		opacity: .6;
-}
