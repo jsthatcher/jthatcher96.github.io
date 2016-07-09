@@ -68,14 +68,14 @@ nav {
   height: 450px;
   width: 100%;
   background-image: url("../imgs/chicago.jpg");
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  margin-top: 20px; }
 
 #bioContainer {
   position: relative;
   height: 200px;
   width: 100%;
-  background-color: #b2b7ba;
-  padding-right: 40px; }
+  background-color: #b2b7ba; }
   #bioContainer p {
     margin-top: 0px;
     padding-top: 15px;

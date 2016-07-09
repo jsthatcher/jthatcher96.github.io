@@ -15,7 +15,8 @@
   width: 95%;
   height: 1225px;
   background-color: white;
-  margin: auto; }
+  margin: auto;
+  margin-top: 20px; }
 
 #summaryContainer {
   display: inline-block;
