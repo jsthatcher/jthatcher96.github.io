@@ -45,15 +45,16 @@ body {
 nav {
   top: 0px;
   margin: 0 auto;
-  width: 300px;
+  width: 223px;
   height: 100%;
   background-color: #fb9b2b; }
 
 .navButton {
   position: relative;
+  margin: 0px 2px 0px 2px;
   padding: 0px 5px 0px 5px;
   height: 100%;
-  width: 65px;
+  width: 60px;
   background-color: black;
   float: left;
   border: 2px black;
@@ -70,8 +71,9 @@ nav {
   background-attachment: fixed; }
 
 #bioContainer {
+  position: relative;
   height: 200px;
-  width: 1160px;
+  width: 100%;
   background-color: #b2b7ba;
   padding-right: 40px; }
   #bioContainer p {
@@ -82,8 +84,24 @@ nav {
 .sectionTitle {
   position: relative;
   height: 100%;
-  width: 20%;
+  width: 13%;
   text-align: center;
   float: left; }
+
+.sectionText {
+  position: relative;
+  height: 100%;
+  width: 65%;
+  text-align: center;
+  float: left; }
+
+.sectionContact {
+  position: relative;
+  height: 100%;
+  width: 15%;
+  text-align: center;
+  float: left; }
+  .sectionContact ul {
+    list-style: none; }
 
 /*# sourceMappingURL=default.css.map */
