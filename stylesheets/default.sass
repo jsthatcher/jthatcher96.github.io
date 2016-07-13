@@ -1,0 +1,96 @@
+@import 'mixins'
+
+$highlight-orange: #fb9b2b
+$light-grey: #b2b7ba
+
+
+*
+  font-family: "share-tech"
+
+html
+  @include linearGradient(#000000, #b2b7ba)
+
+body
+  width: 1200px
+  margin: auto
+  padding: auto
+
+
+#navTop
+  background-color: black
+  color: black
+  height: 75px
+  width: 100%
+
+nav
+  top: 0px
+  margin: 0 auto
+  width: 223px
+  height: 100%
+  background-color: $highlight-orange
+
+.navButton
+  position: relative
+  margin: 0px 2px 0px 2px
+  padding: 0px 5px 0px 5px
+  height: 100%
+  width: 60px
+  background-color: black
+  float: left
+  border: 2px black
+  border-radius: 10px
+  p
+    color: white
+    border: 2px black
+    border-radius: 50px
+
+#frontImage
+  height: 450px
+  width: 100%
+  background-image: url("../imgs/chicago.jpg")
+  background-attachment: fixed
+  margin-top: 20px
+
+#bioContainer
+  display:inline-block
+  position: relative
+  height: 200px
+  width: 100%
+  background-color: $light-grey
+  float:left
+  p
+    margin-top: 0px
+    padding-top: 15px
+    color: black
+
+.sectionTitle
+  display:inline-block
+  position: relative
+  height: 100%
+  width: 13%
+  text-align: center
+  float: left
+
+.sectionText
+  display:inline
+  position: relative
+  height: 100%
+  width: 65%
+  text-align: center
+  float: left
+
+.sectionContact
+  display:inline
+  position: relative
+  height: 100%
+  width: 15%
+  text-align: center
+  float: left
+  ul
+    list-style: none
+
+
+
+
+
+

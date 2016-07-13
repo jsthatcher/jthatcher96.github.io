@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "share-bold";
+  src: url("fonts/shareBoldFont.eot");
+  src: url("fonts/shareBoldFont.eot?#iefix") format("embedded-opentype"), url("fonts/shareBoldFont.woff") format("woff"), url("fonts/shareBoldFont.ttf") format("truetype"), url("fonts/shareBoldFont.svg#share-bold") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "share-tech";
+  src: url("fonts/shareTechFont.eot");
+  src: url("fonts/shareTechFont.eot?#iefix") format("embedded-opentype"), url("fonts/shareTechFont.woff") format("woff"), url("fonts/shareTechFont.ttf") format("truetype"), url("fonts/shareTechFont.svg#share-tech") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+#resumeContainer {
+  position: relative;
+  width: 95%;
+  height: 1225px;
+  background-color: white;
+  margin: auto;
+  margin-top: 20px; }
+
+#summaryContainer {
+  display: inline-block;
+  position: relative;
+  margin: 0px 30px 0px 40px;
+  width: 400px;
+  transform: translate(0%, -15%); }
+
+#skillsContainer {
+  display: inline-block;
+  position: relative;
+  width: 570 px;
+  margin-left: 30px; }
+
+.topContainer {
+  display: inline-block;
+  position: absoulute;
+  overflow-y: auto;
+  float: left; }
+
+.resumeTitle {
+  position: relative;
+  display: block;
+  height: 25px;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  font-family: share-bold; }
+
+hr {
+  width: 90%;
+  margin-left: 0;
+  border-style: solid;
+  border-color: #fb9b2b;
+  border-width: 7px 0 0;
+  border-radius: 7px; }
+
+.skillContainer {
+  position: relative;
+  display: inline-block;
+  min-width: 190px;
+  max-width: 800px;
+  float: left; }
+
+#shortContainer {
+  position: relative;
+  display: inline-block;
+  min-width: 130px;
+  max-width: 800px;
+  float: left; }
+
+.skillContainer h4, #shortContainer h4 {
+  font-family: share-bold; }
+
+.skillContainer ul, #shortContainer ul {
+  font-family: share-tech;
+  list-style: none;
+  padding-left: 0px; }
+
+.resumeContentContainer {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-left: 40px; }
+
+.experienceContainer {
+  min-width: 200px;
+  max-width: 1000px;
+  top: 0px; }
+
+.resumeSectionTitle {
+  display: inline-block;
+  top: 0px;
+  width: 200px; }
+
+.experienceText {
+  margin-top: 20px;
+  display: inline-block;
+  width: 600px; }
+
+.resumeSectionDetails {
+  display: inline-block;
+  float: right;
+  width: 100px; }
+
+h4 {
+  font-size: 20px; }
+
+/*# sourceMappingURL=resume.css.map */
