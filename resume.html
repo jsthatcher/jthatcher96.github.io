@@ -1,58 +1,53 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title> Resume </title>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/resume.css">
-        <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
-</head>
-<body>
+  <body>
 
-	<div id="navTop">
-		<nav>
-			<a href= "index.html">
-				<div class="navButton">
-					<p> home </p>
-				</div>
-			</a>
 
-			<a href= "resume.html">
-				<div class="navButton">
-					<p> resume </p>
-				</div>
-			</a>
+	<nav class="navbar navbar-default" role="navigation">
+	   <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	         <span class="sr-only">Toggle navigation</span>
+	         <span class="icon-bar"></span>
+	         <span class="icon-bar"></span>
+	         <span class="icon-bar"></span>
+	      </button>
+	   </div>
 
-			<a href= "projects/index.html">
-				<div class="navButton">
-					<p> projects </p>
-				</div>
-			</a>
-		</nav>
-	</div>
+	   <div class="collapse navbar-collapse  navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+           <li><a href="home.html">Home</a></li>
+           <li class='active'><a href="resume.html">Resume</a></li>
+           <li><a href="projects/index.html">Projects</a></li>
+           <li><a href="contact.html">Contact</a></li>
+        </ul>
+	  </div>
+	</nav>
 
-	<div id="resumeContainer">
-		<div id="summaryContainer">
-			<div class="topContainer">
-				<div class="resumeTitle">
-					<h3> + summary </h3>
 
-				</div>
-					<hr>
-								<p> I'm a developer who has learned to love finding elegant and efficient solutions to problems. As a recent graduate from Dev Bootcamp, a 19-week intensive course focusing on building web applications, team skills and empathetic communication, I'm well-practiced at learning new languages and working with others. I want to continue building my technical skills as a member of a creative team that fosters growth for all in a collaborative environment where we share successes and challenges.
-					</p>
-				</div>
-			</div>
-
-		<div id="skillsContainer">
-			<div class = 'topContainer'>
-				<div class="resumeTitle">
-					<h3> + skills </h3>
-				</div>
+    <div class="container">
+      <div class="row">
+      
+        <div class="col-sm-12 col-md-5">
+        <h3>Summary</h3>
+        <hr>
+				<p> I'm a developer who has learned to love finding elegant and efficient solutions to problems. As a recent graduate from Dev Bootcamp, a 19-week intensive course focusing on building web applications, team skills and empathetic communication, I'm well-practiced at learning new languages and working with others. I want to continue building my technical skills as a member of a creative team that fosters growth for all in a collaborative environment where we share successes and challenges.</p>
+        </div>
+        <div class="col-sm-12 col-md-7">
+        	<div class='row'>
+				<h3> Skills </h3>
 				<hr>
-				<div class="skillContainer">
-					<h4> WEB DEVELOPMENT: </h4>
+				<div class="col-xs-12 col-sm-4">
+					
+					<h4> Web Development: </h4>
 					<ul>
 						<li> Javascript </li>
 						<li> Ruby-on-Rails </li>
@@ -64,8 +59,8 @@
 					</ul>
 				</div>
 
-				<div id="shortContainer">
-					<h4> DATABASE: </h4>
+				<div class="col-xs-12 col-sm-4">
+					<h4> Database: </h4>
 						<ul>
 							<li> SQLite </li>
 							<li> PostgreSQL </li>
@@ -74,8 +69,8 @@
 						</ul>
 				</div>
 
-				<div class="skillContainer">
-					<h4> OTHER: </h4>
+				<div class="col-xs-12 col-sm-4">
+					<h4> Other: </h4>
 						<ul>
 							<li> Object Oriented Design </li>
 							<li> Empathetic Communication </li>
@@ -84,21 +79,19 @@
 						</ul>
 				</div>
 			</div>
-		</div>
+       	</div>
+      </div>
+    </div>
 
-		<div class="resumeContentContainer">
-			<div class="resumeTitle">
-				<h3> + experience </h3>
-
-			</div>
-				<hr>
-			<div class="experienceContainer">
-				<div class="resumeSectionTitle">
-				<h4>Dev Bootcamp</h4>
-				<h5>Student Web Developer</h5>
+     <div class='container'>
+			<h3> Experience </h3><hr>
+			<div class='row'>
+				<div class='col-sm-12 col-md-2'>
+					<h4>Dev Bootcamp</h4>
+					<h5>Student Web Developer</h5>
 				</div>
 
-				<div class="experienceText">
+				<div class="col-sm-9 col-md-7">
 					<ul>
 						<li>Developed skills in Javascript and Ruby over 19 weeks </li>
 						<li>Explored and worked with Rails, Sinatra, Ajax, jQuery, Backbone, Angular, and Ionic</li>
@@ -107,22 +100,21 @@
 					</ul>
 				</div>
 
-				<div class="resumeSectionDetails">
+				<div class="col-sm-3 col-md-3">
 					<h6>Chicago, IL</h6>
 					<h6>April 2016 - June 2016</h6>
 				</div>
-
-
 			</div>
 
 
-			<div class="experienceContainer">
-				<div class="resumeSectionTitle">
+			<div class='row'>
+
+				<div class='col-sm-12 col-md-2'>
 					<h4>The YMCA of <br> Metropolitan Chicago</h4>
 					<h5>Lifeguard and Camp Counsouler</h5>
 				</div>
 
-				<div class="experienceText">
+				<div class="col-sm-9 col-md-7">
 					<ul>
 						<li>Organized and lead a variety of group activities with 30+ children</li>
 						<li>Identified and responded to camper behavior issues</li>
@@ -130,18 +122,20 @@
 					</ul>
 				</div>
 
-				<div class="resumeSectionDetails">
+				<div class="col-sm-3 col-md-3">
 					<h6> Chicago, IL</h6>
 					<h6> December 2015 - April 2016 </h6>
 				</div>
 			</div>
 
-			<div class="experienceContainer">
-				<div class="resumeSectionTitle">
+			<div class='row'>
+
+				<div class='col-sm-12 col-md-2'>
 						<h4>Mt. Mitchell Golf Course</h4>
 						<h5>Full-Time Greenskeeper</h5>
 				</div>
-				<div class="experienceText">
+
+				<div class="col-sm-9 col-md-7">
 					<ul>
 						<li>Groomed greens and tees daily</li>
 						<li>Maintained the cleanliness and functionality of the course</li>
@@ -149,19 +143,22 @@
 					</ul>
 				</div>
 
-				<div class="resumeSectionDetails">
+				<div class="col-sm-3 col-md-3">
 					<h6> Burnsville, NC</h6>
 					<h6> August 2015 - December 2015 </h6>
+
 				</div>
 			</div>
 
 
-			<div class="experienceContainer">
-				<div class="resumeSectionTitle">
-					<h4>The College of Wooster</h4>
-					<h5>Swim Meet Coordinator</h5>
+			<div class='row'>
+
+				<div class='col-sm-12 col-md-2'>
+						<h4>The College of Wooster</h4>
+						<h5>Swim Meet Coordinator</h5>
 				</div>
-				<div class="experienceText">
+
+				<div class="col-sm-9 col-md-7">
 					<ul>
 						<li>Introduced and maintaineed the dive score display system</li>
 						<li>Operated swimming timing systems and assisted coaches on deck</li>
@@ -170,76 +167,50 @@
 					</ul>
 				</div>
 
-				<div class="resumeSectionDetails">
-					<h6> Wooster, Oh</h6>
-					<h6> August 2014 - May 2015 </h6>
+				<div class="col-sm-3 col-md-3">
+						<h6> Wooster, Oh</h6>
+						<h6> August 2014 - May 2015 </h6>
 				</div>
+
 			</div>
+	</div>
 
-		</div>
-
-
-		<div class="resumeContentContainer">
-
-			<div class="resumeTitle">
-				<h3> + education </h3>
+	<div class='container'>
+		<h3> Education </h3>
 				<hr>
-			<div class="experienceContainer">
-				<div class="resumeSectionTitle">
+		<div class='row'>
+			<div class='col-xs-6 col-md-9'>
 					<h4>Dev Bootcamp</h4>
 					<h5>Chicago, IL</h5>
 				</div>
-				<div class="experienceText"></div>
 
-				<div class="resumeSectionDetails">
-					<h6> 2014 - 2015 </h6>
+				<div class="col-xs-3 col-md-3">
+					<h6> 2016 </h6>
 				</div>
-			</div>
+		</div>
 
-
-			<div class="experienceContainer">
-				<div class="resumeSectionTitle">
+		<div class='row'>
+			<div class='col-xs-6 col-md-9'>
 					<h4>The College of Wooster</h4>
 					<h5>Wooster, OH</h5>
 				</div>
-				<div class="experienceText"></div>
 
-				<div class="resumeSectionDetails">
-					<h6> 2016 </h6>
+				<div class="col-xs-6 col-md-3">
+					<h6> 2014 - 2015</h6>
 				</div>
-			</div>
-
-
-
-
 		</div>
-
-
-
-
-
-
+		<hr>
+      <footer>
+        <p>&copy; 2016 Jack Thatcher</p>
+      </footer>
 	</div>
 
 
 
-<!-- 	<div id='resumeContainer'>
 
-		<div id='resumeContentContainer'>
 
-		<div id="resumeSectionTitle">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-		<h3> Skills: </h3>
-		</div>
-
-		<div id="sectionText">
-			<div class='skillContainer'>
-			<ul>
-				<li> list </li>
-			</ul>
-			</div>
-		</div>
-
-	</div> -->
-</body>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
