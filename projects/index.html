@@ -1,66 +1,114 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title> Projects </title>
-	<meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="../stylesheets/projects.css">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume</title>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../app.js"></script>
+  </head>
 
-  <div id="navTop">
-    <nav>
-      <a href= "../index.html">
-        <div class="navButton">
-          <p> home </p>
+  <body>
+
+
+	<nav class="navbar navbar-default" role="navigation">
+	   <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	         <span class="sr-only">Toggle navigation</span>
+	         <span class="icon-bar"></span>
+	         <span class="icon-bar"></span>
+	         <span class="icon-bar"></span>
+	      </button>
+	   </div>
+
+	   <div class="collapse navbar-collapse  navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+           <li><a href="../home.html">Home</a></li>
+           <li><a href="../resume.html">Resume</a></li>
+           <li class='active'><a href="index.html">Projects</a></li>
+           <li><a href="../contact.html">Contact</a></li>
+        </ul>
+	  </div>
+	</nav>
+
+	 <div id="myCarousel" class="carousel slide">
+      <div id='fullDes' class="carousel-inner">
+
+        <div class="item active">
+          <img src="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Murakami</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <button id='desButton1' onClick="viewFullDes('#description1')">Read More</button>
+            </div>
+          </div>
         </div>
+
+        <div class="item">
+          <img src="" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <button id='desButton2' onClick="viewFullDes('#description2')">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <button id='desButton3' onClick="viewFullDes('#description3')">Read More</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      	<i id='left-button' class="glyphicon glyphicon-circle-arrow-left"></i>
       </a>
-
-      <a href= "../resume.html">
-        <div class="navButton">
-          <p> resume </p>
-        </div>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      	<i id='left-button' class="glyphicon glyphicon-circle-arrow-right"></i>
       </a>
+    <hr>
 
-      <a href= "index.html">
-        <div class="navButton">
-          <p> projects </p>
-        </div>
-      </a>
-    </nav>
-  </div>
-
-  <div id="projectPageContainer">
-    <div class="projectContainer">
-
-
-
-        <div class="projectImage">
-          <img src="../imgs/murakamiLogin.png">
-        </div>
-    </div>
-      <div class="projectContainer">
-
-      <div class="projectImage">
-          <img src="../imgs/murakamiLogin.png">
-        </div>
     </div>
 
-    <div class="projectContainer">
 
-        <div class="projectImage">
-          <img src="../imgs/murakamiLogin.png">
+    <div class='container'>
+      
+        <div id="description1" class="description">
+          <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 11111111</p>
         </div>
+
+        <div id="description2" class="description">
+          <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 222222</p>
+        </div>
+
+        <div id="description3" class="description">
+          <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 333333 </p>
+        </div>
+
+    
+
+      <hr>
+      <footer>
+        <p>&copy; 2016 Jack Thatcher</p>
+      </footer>
+
     </div>
 
-    <div class="projectContainer">
-      <div class="projectImage">
-          <img src="../imgs/murakamiLogin.png">
-        </div>
-    </div>
-  </div>
 
+    
 
-	<footer> ©2016 Jack Thatcher. All Rights Reserved. </footer>
-</body>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
